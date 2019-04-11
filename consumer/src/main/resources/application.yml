@@ -1,0 +1,13 @@
+spring:
+  ## 项目名称 ##
+  application:
+    name: lon-test-consumer
+  ## 设置运行环境 ##
+  profiles:
+    active: dev
+  main:
+    allow-bean-definition-overriding: true # 不设置会与Spring Boot冲突
+
+server:
+  ## 默认启动端口 ##
+  port: 9091

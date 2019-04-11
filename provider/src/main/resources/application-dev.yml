@@ -1,0 +1,23 @@
+### dubbo 0.2.0 config ###
+dubbo:
+  registry:
+    address: zookeeper://192.168.17.128:2181
+  protocol:
+    name: dubbo
+    port: -1
+  metadata-report:
+      address: zookeeper://192.168.17.128:2181
+  scan:
+    base-packages: org.lon.lontest.service
+  provider:
+    timeout: 10000
+  consumer:
+    timeout: 10000
+### dubbo 0.2.0 config ###
+
+#log path config
+logging:
+  path: d:\\data\\applogs\\dragon\\chaofeng\\
+  level:
+    root: debug
+#log path config

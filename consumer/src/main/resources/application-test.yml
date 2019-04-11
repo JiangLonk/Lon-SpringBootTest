@@ -1,0 +1,15 @@
+### dubbo 0.2.0 config ###
+dubbo:
+  registry:
+    address: zookeeper://192.168.17.128:2181 # Zookeeper注册中心地址
+  protocol:
+    port: -1 # 随机端口
+    name: dubbo # dubbo协议名字
+### dubbo 0.2.0 config ###
+
+#log path config
+logging:
+  path: /data/applogs/${spring.application.name}
+  level:
+    root: info
+#log path config
