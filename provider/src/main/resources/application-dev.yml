@@ -1,5 +1,7 @@
 ### dubbo 0.2.0 config ###
 dubbo:
+  application:
+    name: lon-provider
   registry:
     address: zookeeper://192.168.17.128:2181
   protocol:
@@ -8,7 +10,7 @@ dubbo:
   metadata-report:
       address: zookeeper://192.168.17.128:2181
   scan:
-    base-packages: org.lon.lontest.service
+    base-packages: lon.test.provider.services
   provider:
     timeout: 10000
   consumer:
