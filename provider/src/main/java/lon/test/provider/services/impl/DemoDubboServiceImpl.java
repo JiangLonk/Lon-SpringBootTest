@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 public class DemoDubboServiceImpl implements DemoDubboService {
 
     @Override
-    public String testDubboApiO(TestBean testBean) {
-        return "param:" + testBean.toString() + ";";
+    public String testDubboApiO(String msg, TestBean testBean) {
+        return "msg: " + msg + ";param:" + testBean.toString() + ";";
     }
 }

@@ -19,7 +19,7 @@ dubbo:
 
 #log path config
 logging:
-  path: d:\\data\\applogs\\dragon\\chaofeng\\
+  path: d:\\data\\applogs\\lon\\test\\
   level:
     root: debug
 #log path config

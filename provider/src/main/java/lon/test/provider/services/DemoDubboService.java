@@ -5,6 +5,6 @@ import lon.test.provider.bean.TestBean;
 
 public interface DemoDubboService {
 
-    String testDubboApiO(TestBean testBean);
+    String testDubboApiO(String msg, TestBean testBean);
 
 }
