@@ -9,7 +9,7 @@ dubbo:
 
 #log path config
 logging:
-  path: d:\\data\\applogs\\lon\\test\\
+  path: d:\\data\\applogs\\${spring.application.name}
   level:
     root: debug
 #log path config
