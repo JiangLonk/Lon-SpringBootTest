@@ -12,9 +12,9 @@ dubbo:
   scan:
     base-packages: lon.test.provider.services
   provider:
-    timeout: 10000
+    timeout: 300000
   consumer:
-    timeout: 10000
+    timeout: 300000
 ### dubbo 0.2.0 config ###
 
 #log path config
