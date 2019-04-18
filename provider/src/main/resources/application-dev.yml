@@ -1,12 +1,16 @@
-### dubbo 0.2.0 config ###
+### dubbo config ###
 dubbo:
   application:
-    name: ${spring.application.name}
+    id: ${spring.application.name}-service
+    name: ${spring.application.name}-service
   registry:
+    id: ${spring.application.name}-registry
     address: zookeeper://192.168.17.128:2181
   protocol:
+    id: dubbo
     name: dubbo
     port: -1
+    status: server
   metadata-report:
     address: zookeeper://192.168.17.128:2181
   scan:
@@ -15,7 +19,7 @@ dubbo:
     timeout: 300000
   consumer:
     timeout: 300000
-### dubbo 0.2.0 config ###
+### dubbo config ###
 
 #log path config
 logging:
